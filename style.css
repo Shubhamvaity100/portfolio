@@ -676,6 +676,18 @@ footer{
   }
 /* Make images responsive */
 }
+.featured-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
 
   
   
