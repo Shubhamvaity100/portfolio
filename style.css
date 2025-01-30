@@ -674,5 +674,20 @@ footer{
   .project-box:hover {
     transform: scale(1.05);
   }
+/* Make images responsive */
+.responsive-img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Additional CSS for mobile */
+@media (max-width: 768px) {
+  .featured-image .image {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
   
   
